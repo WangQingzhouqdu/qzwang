@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>串口日志应记录什么 · 你的名字</title>
+  <title>串口日志应记录什么 · 王青洲</title>
   <meta name="description" content="用少量有上下文的记录，解释设备发生了什么。">
   <meta name="theme-color" content="#215de1">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23215de1'/%3E%3Cpath d='M12 8H8v16h4m8-16h4v16h-4M18 7l-4 18' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
@@ -14,13 +14,13 @@
   <a class="skip" href="#main">跳到主要内容</a>
   <div class="wrap">
     <header class="header">
-      <a class="brand" href="../index.html" aria-label="你的名字，首页"><span class="brand-icon" aria-hidden="true">/&gt;</span><span>你的名字<small>RESEARCH &amp; ENGINEERING</small></span></a>
+      <a class="brand" href="../index.html" aria-label="王青洲，首页"><span class="brand-icon" aria-hidden="true">/&gt;</span><span>王青洲<small>RESEARCH &amp; ENGINEERING</small></span></a>
       <nav class="nav" aria-label="主导航"><a href="../index.html">首页</a><a href="../projects/index.html">项目</a><a href="../articles/index.html">文章</a><a href="../notes/index.html" aria-current="page">笔记</a><a href="../index.html#about">关于</a></nav>
     </header>
-    <main id="main"><article class="reading"><a class="breadcrumb" href="index.html">笔记 / 嵌入式开发</a><header class="detail-header"><p class="eyebrow">RESEARCH NOTE / 嵌入式开发</p><h1>串口日志应记录什么</h1><p class="summary">用少量有上下文的记录，解释设备发生了什么。</p><div class="meta"><time datetime="2026-10-09">2026.10.09</time><span>你的名字</span><span class="sample">示例笔记</span></div></header><div class="notice">本文为网站的示例笔记，用于预览阅读版式；可替换成你的实际研究与学习记录。</div><div class="prose"><p>日志可以包含时间、事件类型、模块名称与关键状态。对重复出现的信息设置合理级别，避免重要异常被大量输出淹没。调试结束后，保留能够解释系统行为的记录，并检查日志输出是否影响运行时序。</p><h2>一条日志的结构示例</h2><pre><code>[相对时间] [级别] [模块] 事件 | 关键字段
+    <main id="main"><article class="reading"><a class="breadcrumb" href="index.html">笔记 / 嵌入式开发</a><header class="detail-header"><p class="eyebrow">RESEARCH NOTE / 嵌入式开发</p><h1>串口日志应记录什么</h1><p class="summary">用少量有上下文的记录，解释设备发生了什么。</p><div class="meta"><time datetime="2026-10-09">2026.10.09</time><span>王青洲</span><span class="sample">示例笔记</span></div></header><div class="notice">本文为网站的示例笔记，用于预览阅读版式；可替换成你的实际研究与学习记录。</div><div class="prose"><p>日志可以包含时间、事件类型、模块名称与关键状态。对重复出现的信息设置合理级别，避免重要异常被大量输出淹没。调试结束后，保留能够解释系统行为的记录，并检查日志输出是否影响运行时序。</p><h2>一条日志的结构示例</h2><pre><code>[相对时间] [级别] [模块] 事件 | 关键字段
 [001250ms] [INFO] [ACQUIRE] started | config=demo
 [001420ms] [WARN] [LINK] retry | attempt=1</code></pre><p>上面的内容是格式示例，不是实际设备输出。字段名称可以根据任务调整，关键是保持前后一致。</p><h2>整理日志时的三个问题</h2><ul><li>这条记录能否对应到明确的模块与事件？</li><li>单独看到它时，是否知道当时使用的配置？</li><li>重复输出是否淹没了真正需要注意的信息？</li></ul><p>具体的日志频率和实现方式应结合系统资源与测试结果确定，这里只展示记录结构。</p></div><div class="tags"><span>调试</span><span>日志</span></div><div class="detail-end"><a href="index.html">返回全部笔记</a><a href="../projects/index.html">浏览工程项目</a></div></article></main>
-    <footer class="footer"><span>© 2026 你的名字 · 工科博士作品集</span><span>姓名与内容为占位示例 · <a href="../index.html#about">关于我</a></span></footer>
+    <footer class="footer"><span>© 2026 王青洲 · 工科博士作品集</span><span>姓名与内容为占位示例 · <a href="../index.html#about">关于我</a></span></footer>
   </div>
 </body>
 </html>
